@@ -45,6 +45,7 @@ class HistoryQuiz():
         return correct_datetime
 
     def getUserAnswer(self, question):
+        print("\nGuess the date this happened:\n")
         year = int(input("Type the year (YYYY): "))
         month = int(input("Type the month (MM): "))
         day = int(input("Type the day (DD): "))
